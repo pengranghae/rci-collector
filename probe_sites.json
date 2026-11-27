@@ -1,0 +1,14 @@
+{
+  "_설명": "출처 후보 목록. collect.py --probe 로 점검한다. 주소를 바꾸거나 줄을 더해도 된다.",
+  "sites": [
+    {"name": "포스코 뉴스룸", "covers": "포스코그룹·포스코퓨처엠", "url": "https://newsroom.posco.com/kr/"},
+    {"name": "현대자동차그룹 뉴스룸", "covers": "현대자동차·기아·현대모비스·현대위아·현대트랜시스·현대엔지니어링", "url": "https://www.hyundaimotorgroup.com/ko/news"},
+    {"name": "LG 보도자료", "covers": "LG전자·LG화학·LG이노텍·LG디스플레이·LG CNS", "url": "https://www.lg.co.kr/media/release"},
+    {"name": "LG전자 LiVE LG", "covers": "LG전자", "url": "https://live.lge.co.kr/"},
+    {"name": "CJ뉴스룸", "covers": "CJ그룹", "url": "https://cjnews.cj.net/"},
+    {"name": "SK이노베이션 스키노뉴스", "covers": "SK이노베이션", "url": "https://skinnonews.com/"},
+    {"name": "KAIST 전기전자 취업정보", "covers": "여러 기업 공고 재게시", "url": "https://ee.kaist.ac.kr/jobs/"},
+    {"name": "서울대 컴퓨터공학부 공지", "covers": "여러 기업 공고 재게시", "url": "https://cse.snu.ac.kr/community/notice"},
+    {"name": "고려대 경영대 CDC 채용공고", "covers": "여러 기업 공고 재게시", "url": "https://biz.korea.ac.kr/cdc/recruitment/recruitment_list"}
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "user_agent": "RCI-collector/0.2 (recruiting-calendar research; low-frequency)",
+  "delay_sec": 3,
+  "timeout_sec": 15,
+  "respect_robots": true,
+  "ca_bundle": "",
+  "lookback_days": 450,
+  "max_items_per_source": 30,
+  "pool_file": "pool.json",
+  "db": "data/collector.sqlite",
+  "inbox_file": "inbox.json",
+  "log_dir": "logs",
+  "presets": {
+    "news": {
+      "type": "언론",
+      "require_company": true,
+      "read_once": true,
+      "default_company": null,
+      "keywords": ["공채", "신입사원", "신입 채용", "신입채용", "대졸 채용", "채용 일정", "채용 절차", "상반기 채용", "하반기 채용", "GSAT", "SKCT", "HMAT", "인적성", "직무적성"],
+      "exclude_title": ["경력", "채용비리", "부정채용", "생산직", "인턴 후기"]
+    },
+    "official": {
+      "type": "공식",
+      "require_company": true,
+      "default_company": null,
+      "keywords": ["공채", "신입사원", "신입 채용", "채용", "인적성", "직무적성"],
+      "exclude_title": ["경력"]
+    }
+  },
+  "sources": [
+    {
+      "id": "samsung_newsroom",
+      "name": "삼성전자 뉴스룸",
+      "type": "공식",
+      "enabled": true,
+      "default_company": "삼성그룹",
+      "feeds": ["https://news.samsung.com/kr/feed"],
+      "keywords": ["공채", "GSAT", "직무적성검사", "신입사원", "채용"],
+      "exclude_title": ["경력"]
+    },
+    {
+      "id": "skhynix_newsroom",
+      "name": "SK하이닉스 뉴스룸",
+      "type": "공식",
+      "enabled": true,
+      "default_company": "SK하이닉스",
+      "feeds": ["https://news.skhynix.co.kr/feed"],
+      "keywords": ["채용", "신입", "SKCT"],
+      "exclude_title": ["경력"]
+    },
+    {"id": "posco_newsroom", "name": "포스코 뉴스룸", "preset": "official", "default_company": "포스코그룹", "require_company": false, "feeds": ["https://newsroom.posco.com/kr/feed/"]},
+    {"id": "cj_newsroom", "name": "CJ뉴스룸", "preset": "official", "default_company": "CJ그룹", "require_company": false, "feeds": ["https://cjnews.cj.net/feed/"]},
+    {"id": "hanwha_newsroom", "name": "한화 뉴스룸", "preset": "official", "feeds": ["https://www.hanwha.co.kr/newsroom/rss"]},
+
+    {"id": "news_yna", "name": "연합뉴스(경제·산업)", "preset": "news", "feeds": ["https://www.yna.co.kr/rss/economy.xml", "https://www.yna.co.kr/rss/industry.xml"]},
+    {"id": "news_hankyung", "name": "한국경제(경제)", "preset": "news", "feeds": ["https://www.hankyung.com/feed/economy"]},
+    {"id": "news_mk", "name": "매일경제(기업)", "preset": "news", "feeds": ["https://www.mk.co.kr/rss/50100032/"]},
+    {"id": "news_newsis", "name": "뉴시스(경제)", "preset": "news", "feeds": ["https://newsis.com/RSS/economy.xml"]},
+    {"id": "news_mt", "name": "머니투데이", "preset": "news", "feeds": ["https://rss.mt.co.kr/mt_news.xml"]},
+    {"id": "news_donga", "name": "동아일보(경제)", "preset": "news", "feeds": ["https://rss.donga.com/economy.xml"]},
+    {"id": "news_etnews", "name": "전자신문", "preset": "news", "feeds": ["https://rss.etnews.com/Section901.xml"]},
+    {"id": "news_chosunbiz", "name": "조선비즈", "preset": "news", "feeds": ["https://biz.chosun.com/arc/outboundfeeds/rss/?outputType=xml"]},
+
+    {
+      "id": "naver_news",
+      "name": "네이버 뉴스 검색(Pool 기업별)",
+      "preset": "news",
+      "kind": "naver_news",
+      "_설명": "네이버 검색 API 키가 있을 때만 동작(없으면 자동으로 건너뜀). README_actions.md 6장 참고.",
+      "queries": ["{name} 신입 채용", "{name} 공채"],
+      "tiers": [],
+      "display": 20,
+      "max_items": 120
+    }
+  ]
+}

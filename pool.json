@@ -1,0 +1,344 @@
+{
+ "exportedAt": "2026-11-27T02:25:03.135Z",
+ "companies": [
+  {
+   "name": "삼성그룹",
+   "tier": "핵심",
+   "group": "삼성",
+   "unit": "그룹",
+   "parent": "",
+   "aliases": [
+    "삼성그룹"
+   ]
+  },
+  {
+   "name": "SK하이닉스",
+   "tier": "핵심",
+   "group": "SK",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "SK하이닉스"
+   ]
+  },
+  {
+   "name": "현대자동차",
+   "tier": "핵심",
+   "group": "현대자동차그룹",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "현대자동차"
+   ]
+  },
+  {
+   "name": "기아",
+   "tier": "핵심",
+   "group": "현대자동차그룹",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "기아"
+   ]
+  },
+  {
+   "name": "LG전자",
+   "tier": "핵심",
+   "group": "LG",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "LG전자"
+   ]
+  },
+  {
+   "name": "현대모비스",
+   "tier": "핵심",
+   "group": "현대자동차그룹",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "현대모비스"
+   ]
+  },
+  {
+   "name": "포스코그룹",
+   "tier": "핵심",
+   "group": "포스코",
+   "unit": "그룹",
+   "parent": "",
+   "aliases": [
+    "포스코그룹",
+    "포스코",
+    "POSCO"
+   ]
+  },
+  {
+   "name": "한화에어로스페이스",
+   "tier": "핵심",
+   "group": "한화",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "한화에어로스페이스"
+   ]
+  },
+  {
+   "name": "HD현대",
+   "tier": "핵심",
+   "group": "HD현대",
+   "unit": "그룹",
+   "parent": "",
+   "aliases": [
+    "HD현대*"
+   ]
+  },
+  {
+   "name": "LG화학",
+   "tier": "추가",
+   "group": "LG",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "LG화학"
+   ]
+  },
+  {
+   "name": "LG이노텍",
+   "tier": "추가",
+   "group": "LG",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "LG이노텍"
+   ]
+  },
+  {
+   "name": "LG디스플레이",
+   "tier": "추가",
+   "group": "LG",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "LG디스플레이"
+   ]
+  },
+  {
+   "name": "현대엔지니어링",
+   "tier": "추가",
+   "group": "현대자동차그룹",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "현대엔지니어링"
+   ]
+  },
+  {
+   "name": "현대위아",
+   "tier": "추가",
+   "group": "현대자동차그룹",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "현대위아"
+   ]
+  },
+  {
+   "name": "현대트랜시스",
+   "tier": "추가",
+   "group": "현대자동차그룹",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "현대트랜시스"
+   ]
+  },
+  {
+   "name": "HL그룹(HL만도)",
+   "tier": "추가",
+   "group": "HL",
+   "unit": "그룹",
+   "parent": "",
+   "aliases": [
+    "HL그룹",
+    "HL만도"
+   ]
+  },
+  {
+   "name": "포스코퓨처엠",
+   "tier": "추가",
+   "group": "포스코",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "포스코퓨처엠"
+   ]
+  },
+  {
+   "name": "한화시스템",
+   "tier": "추가",
+   "group": "한화",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "한화시스템*"
+   ]
+  },
+  {
+   "name": "LIG넥스원",
+   "tier": "추가",
+   "group": "LIG",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "LIG넥스원"
+   ]
+  },
+  {
+   "name": "KAI",
+   "tier": "추가",
+   "group": "KAI",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "KAI*"
+   ]
+  },
+  {
+   "name": "롯데케미칼",
+   "tier": "추가",
+   "group": "롯데",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "롯데케미칼*"
+   ]
+  },
+  {
+   "name": "금호석유화학",
+   "tier": "추가",
+   "group": "금호석유화학",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "금호석유화학*"
+   ]
+  },
+  {
+   "name": "효성",
+   "tier": "추가",
+   "group": "효성",
+   "unit": "그룹",
+   "parent": "",
+   "aliases": [
+    "효성그룹",
+    "HS효성그룹",
+    "효성*"
+   ]
+  },
+  {
+   "name": "OCI",
+   "tier": "추가",
+   "group": "OCI",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "OCI"
+   ]
+  },
+  {
+   "name": "CJ그룹",
+   "tier": "추가",
+   "group": "CJ",
+   "unit": "그룹",
+   "parent": "",
+   "aliases": [
+    "CJ그룹"
+   ]
+  },
+  {
+   "name": "두산",
+   "tier": "추가",
+   "group": "두산",
+   "unit": "그룹",
+   "parent": "",
+   "aliases": [
+    "두산그룹",
+    "㈜두산*"
+   ]
+  },
+  {
+   "name": "LS그룹",
+   "tier": "추가",
+   "group": "LS",
+   "unit": "그룹",
+   "parent": "",
+   "aliases": [
+    "LS그룹"
+   ]
+  },
+  {
+   "name": "SK이노베이션",
+   "tier": "추가",
+   "group": "SK",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "SK이노베이션*",
+    "울산CLX*"
+   ]
+  },
+  {
+   "name": "금호타이어",
+   "tier": "추가",
+   "group": "금호",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "금호타이어"
+   ]
+  },
+  {
+   "name": "넥센타이어",
+   "tier": "추가",
+   "group": "넥센",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "넥센타이어"
+   ]
+  },
+  {
+   "name": "LG CNS",
+   "tier": "확장",
+   "group": "LG",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "LG CNS"
+   ]
+  },
+  {
+   "name": "램리서치코리아",
+   "tier": "확장",
+   "group": "램리서치",
+   "unit": "법인",
+   "parent": "",
+   "aliases": [
+    "램리서치*"
+   ]
+  },
+  {
+   "name": "삼성전자",
+   "tier": "핵심",
+   "group": "삼성",
+   "unit": "법인",
+   "parent": "삼성그룹",
+   "aliases": [
+    "삼성전자",
+    "삼성전자 DS부문",
+    "삼성전자 DX부문"
+   ]
+  }
+ ]
+}

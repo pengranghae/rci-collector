@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel><title>테스트 뉴스룸 A</title>
+<item><title>삼성, 2026년 하반기 공채 실시</title><link>{BASE}/kr/2026-h2-recruit</link><pubDate>Mon, 07 Sep 2026 10:00:00 +0900</pubDate><category>채용</category>
+<description>하반기 공채 절차 진행</description>
+<content:encoded><![CDATA[<p>삼성은 미래 준비를 위해 국내 투자를 확대하면서 청년들에게 양질의 취업기회를 제공하고자 8일(화)부터 올해 하반기 공채 절차를 진행할 계획이다.</p><p>지원서 접수는 9월 8일부터 15일까지 삼성커리어스에서 진행된다. 이후 10월 GSAT, 11월 면접을 거쳐 최종 합격자를 선발한다.</p><p>이번 공채에는 삼성전자, 삼성디스플레이, 삼성SDI, 삼성전기 등 19개 관계사가 참여한다.</p><p>본 테스트 문서는 실제 기사 원문이 아니라 수집기 시험용 예시입니다. 실제 기사 구조를 흉내 낸 문장으로 구성했습니다.</p>]]></content:encoded></item>
+<item><title>삼성, 2026년 하반기 삼성직무적성검사(GSAT) 실시</title><link>{BASE}/kr/2026-h2-gsat</link><pubDate>Sun, 25 Oct 2026 12:00:00 +0900</pubDate><category>채용</category><description>GSAT 실시</description></item>
+<item><title>갤럭시 신제품 공개</title><link>{BASE}/kr/galaxy</link><pubDate>Mon, 19 Oct 2026 09:00:00 +0900</pubDate><category>제품</category><description>신제품</description></item>
+<item><title>삼성, 신입사원 채용 관련 내부 공지</title><link>{BASE}/private/notice</link><pubDate>Mon, 19 Oct 2026 09:00:00 +0900</pubDate><category>채용</category><description>채용</description></item>
+</channel></rss>
