@@ -1,13 +1,13 @@
 {
  "schema": "rci-inbox/1",
- "generatedAt": "2026-11-27T15:38:41+00:00",
+ "generatedAt": "2026-11-27T21:34:28+00:00",
  "collector": "0.2.0",
  "sources": [
   {
    "source_id": "cj_newsroom",
    "name": "CJ뉴스룸",
-   "last_run": "2026-11-27T15:37:41+00:00",
-   "last_success": "2026-11-27T15:37:41+00:00",
+   "last_run": "2026-11-27T21:33:53+00:00",
+   "last_success": "2026-11-27T21:33:53+00:00",
    "consecutive_failures": 0,
    "last_error": null,
    "last_items": 0
@@ -15,8 +15,8 @@
   {
    "source_id": "hanwha_newsroom",
    "name": "한화 뉴스룸",
-   "last_run": "2026-11-27T15:37:45+00:00",
-   "last_success": "2026-11-27T15:37:45+00:00",
+   "last_run": "2026-11-27T21:33:57+00:00",
+   "last_success": "2026-11-27T21:33:57+00:00",
    "consecutive_failures": 0,
    "last_error": null,
    "last_items": 0
@@ -24,8 +24,8 @@
   {
    "source_id": "news_chosunbiz",
    "name": "조선비즈",
-   "last_run": "2026-11-27T15:38:41+00:00",
-   "last_success": "2026-11-27T15:38:41+00:00",
+   "last_run": "2026-11-27T21:34:28+00:00",
+   "last_success": "2026-11-27T21:34:28+00:00",
    "consecutive_failures": 0,
    "last_error": null,
    "last_items": 0
@@ -33,17 +33,17 @@
   {
    "source_id": "news_donga",
    "name": "동아일보(경제)",
-   "last_run": "2026-11-27T15:38:34+00:00",
-   "last_success": null,
-   "consecutive_failures": 3,
-   "last_error": "TimeoutError: https://rss.donga.com/economy.xml",
+   "last_run": "2026-11-27T21:34:22+00:00",
+   "last_success": "2026-11-27T21:34:22+00:00",
+   "consecutive_failures": 0,
+   "last_error": null,
    "last_items": 0
   },
   {
    "source_id": "news_etnews",
    "name": "전자신문",
-   "last_run": "2026-11-27T15:38:38+00:00",
-   "last_success": "2026-11-27T15:38:38+00:00",
+   "last_run": "2026-11-27T21:34:25+00:00",
+   "last_success": "2026-11-27T21:34:25+00:00",
    "consecutive_failures": 0,
    "last_error": null,
    "last_items": 0
@@ -51,8 +51,8 @@
   {
    "source_id": "news_hankyung",
    "name": "한국경제(경제)",
-   "last_run": "2026-11-27T15:37:55+00:00",
-   "last_success": "2026-11-27T15:37:55+00:00",
+   "last_run": "2026-11-27T21:34:07+00:00",
+   "last_success": "2026-11-27T21:34:07+00:00",
    "consecutive_failures": 0,
    "last_error": null,
    "last_items": 0
@@ -60,8 +60,8 @@
   {
    "source_id": "news_mk",
    "name": "매일경제(기업)",
-   "last_run": "2026-11-27T15:37:58+00:00",
-   "last_success": "2026-11-27T15:37:58+00:00",
+   "last_run": "2026-11-27T21:34:10+00:00",
+   "last_success": "2026-11-27T21:34:10+00:00",
    "consecutive_failures": 0,
    "last_error": null,
    "last_items": 0
@@ -69,8 +69,8 @@
   {
    "source_id": "news_mt",
    "name": "머니투데이",
-   "last_run": "2026-11-27T15:38:05+00:00",
-   "last_success": "2026-11-27T15:38:05+00:00",
+   "last_run": "2026-11-27T21:34:18+00:00",
+   "last_success": "2026-11-27T21:34:18+00:00",
    "consecutive_failures": 0,
    "last_error": null,
    "last_items": 0
@@ -78,8 +78,8 @@
   {
    "source_id": "news_newsis",
    "name": "뉴시스(경제)",
-   "last_run": "2026-11-27T15:38:02+00:00",
-   "last_success": "2026-11-27T15:38:02+00:00",
+   "last_run": "2026-11-27T21:34:14+00:00",
+   "last_success": "2026-11-27T21:34:14+00:00",
    "consecutive_failures": 0,
    "last_error": null,
    "last_items": 0
@@ -87,8 +87,8 @@
   {
    "source_id": "news_yna",
    "name": "연합뉴스(경제·산업)",
-   "last_run": "2026-11-27T15:37:52+00:00",
-   "last_success": "2026-11-27T15:37:52+00:00",
+   "last_run": "2026-11-27T21:34:04+00:00",
+   "last_success": "2026-11-27T21:34:04+00:00",
    "consecutive_failures": 0,
    "last_error": null,
    "last_items": 0
@@ -96,8 +96,8 @@
   {
    "source_id": "posco_newsroom",
    "name": "포스코 뉴스룸",
-   "last_run": "2026-11-27T15:37:34+00:00",
-   "last_success": "2026-11-27T15:37:34+00:00",
+   "last_run": "2026-11-27T21:33:49+00:00",
+   "last_success": "2026-11-27T21:33:49+00:00",
    "consecutive_failures": 0,
    "last_error": null,
    "last_items": 0
@@ -105,8 +105,8 @@
   {
    "source_id": "samsung_newsroom",
    "name": "삼성전자 뉴스룸",
-   "last_run": "2026-11-27T15:37:25+00:00",
-   "last_success": "2026-11-27T15:37:25+00:00",
+   "last_run": "2026-11-27T21:33:42+00:00",
+   "last_success": "2026-11-27T21:33:42+00:00",
    "consecutive_failures": 0,
    "last_error": null,
    "last_items": 0
@@ -114,10 +114,10 @@
   {
    "source_id": "skhynix_newsroom",
    "name": "SK하이닉스 뉴스룸",
-   "last_run": "2026-11-27T15:37:30+00:00",
+   "last_run": "2026-11-27T21:33:45+00:00",
    "last_success": "2026-11-27T15:37:30+00:00",
-   "consecutive_failures": 0,
-   "last_error": null,
+   "consecutive_failures": 1,
+   "last_error": "robots.txt 확인 실패 — HTTP 403: https://news.skhynix.co.kr/robots.txt",
    "last_items": 0
   }
  ],
